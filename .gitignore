@@ -21,5 +21,9 @@ cypress/screenshots/
 cypress/videos/
 .DS_Store
 
+# Ignore Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
 
 cypress/screenshots/
