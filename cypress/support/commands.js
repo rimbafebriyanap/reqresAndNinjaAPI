@@ -28,6 +28,16 @@ Cypress.Commands.add("apiNinjaRequestPOST", (endpoint, body) => {
   });
 });
 
+Cypress.Commands.add('makeRequest', (method, endpoint, body = {}, failOnStatusCode = true) => {
+  cy.request({
+      method: method,
+      url: `https://reqres.in/api${endpoint}`, // Base URL Reqres API
+      body: body,
+      failOnStatusCode: failOnStatusCode, // Mengatur apakah harus gagal saat status error
+  });
+});
+
+
 
 
 

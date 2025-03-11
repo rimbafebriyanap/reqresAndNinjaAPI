@@ -1,0 +1,25 @@
+# Abaikan folder `node_modules`
+node_modules/
+
+# Abaikan file hasil build atau logs
+cypress/e2e/1-getting-started
+cypress/e2e/2-advanced-examples
+cypress/e2e/BIT-Project
+cypress/e2e/Ebay
+cypress/e2e/Vascomm
+
+# Abaikan file terkait lingkungan (jika ada)
+cypress.config.js
+
+# Abaikan folder `fixtures dan support`
+fixtures/fileBITJSON/
+support/commands.example
+support/commandssss.js
+
+# Ignore Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+.DS_Store
+
+
+cypress/screenshots/
