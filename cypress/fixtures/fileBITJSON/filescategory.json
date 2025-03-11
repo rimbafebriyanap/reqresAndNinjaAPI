@@ -1,0 +1,7 @@
+{
+    "filesDrawing": ["drawing1.pdf", "drawing2.pdf"],
+    "filesKnowledge": ["knowledge1.pdf", "knowledge2.pdf", "knowledge3.pdf"],
+    "filesSchedule": ["schedule1.pdf", "schedule2.pdf"],
+    "filesDummy": ["260kb.pdf", "800kb.pdf"]
+}
+  
