@@ -12,9 +12,9 @@ cypress/e2e/Vascomm
 cypress.config.js
 
 # Abaikan folder `fixtures dan support`
-fixtures/fileBITJSON/
-support/commands.example
-support/commandssss.js
+cypress/fixtures/fileBITJSON/test.json
+cypress/support/commands.example
+cypress/support/commandssss.js
 
 # Ignore Cypress screenshots and videos
 cypress/videos/
