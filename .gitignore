@@ -12,7 +12,7 @@ cypress/e2e/Vascomm
 .cypress.config.js
 
 # Abaikan folder `fixtures dan support`
-fixtures/fileBank/*
-fixtures/fileBITJSON/*
+fixtures/fileBank/
+fixtures/fileBITJSON/
 
 
